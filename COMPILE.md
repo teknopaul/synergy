@@ -36,3 +36,4 @@ This is handled in the ./compile in this fork, essentially this is what it does.
 
 	git reset --hard
 	git clean -f -d
+
