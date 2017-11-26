@@ -5,6 +5,9 @@ This fork of synergy is created to build on Linux Ubuntu only.
 refs:
 
 https://www.reddit.com/r/linux/comments/2fydpm/synergy_gpl_input_sharing_software_gone_paid/
+
+Hats off to **lavacano** for forking before the github repo was deleted.
+
 https://github.com/lavacano/synergy/
 
 The idea is to compile an old version that does not have nag-ware or incompatabilities built into the protocol to "encourage" you to upgrade.

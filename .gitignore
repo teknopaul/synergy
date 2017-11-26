@@ -11,12 +11,6 @@ CMakeCache.txt
 *.a
 lib/
 
-# configure generated files
-ext/cryptopp562/
-ext/gmock-1.6.0/
-ext/gtest-1.6.0/
-
-
 #Git-svn created .gitignore
 /Release
 /Debug
