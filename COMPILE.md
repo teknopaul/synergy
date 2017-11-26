@@ -8,13 +8,9 @@ Synergy compiles with cmake.
 
 ## Dependencies
 
-Err you need git and cmake
+You need git, g++, cmake, and a few libs.
 
-	sudo aptitude install git cmake 
-
-I needed to install these tools, this is clearly not a full list, pull requests welcome with other dependencies.
-
-	sudo aptitude install libxtst-dev libcurl4-openssl-dev
+	sudo aptitude install git cmake gcc g++ libxtst-dev libcurl4-openssl-dev
 
 The source has 3 zip files that need to be expaneded for the project to compile.
 
