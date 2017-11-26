@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# faked ininstall
+#
+
+cd $(dirname $0)
+
+cp -f bin/synergy*  /usr/bin/
+

@@ -1,2 +1,26 @@
+#!/bin/bash
+#
+#
+#
+cd $(dirname $0)
+
+if [ ! -d ext/cryptopp562 ]
+then
+  mkdir -p ext/cryptopp562
+  unzip ext/cryptopp562.zip -d ext/cryptopp562
+fi
+
+if [ ! -d ext/gmock-1.6.0 ]
+then
+  mkdir -p ext/gmock-1.6.0
+  unzip ext/gmock-1.6.0.zip -d ext/gmock-1.6.0
+fi
+
+if [ ! -d ext/gtest-1.6.0 ]
+then
+  mkdir -p ext/gtest-1.6.0
+  unzip ext/gtest-1.6.0.zip -d ext/gtest-1.6.0
+fi
+
 cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release .
 
