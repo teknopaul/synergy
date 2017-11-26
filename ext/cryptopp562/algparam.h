@@ -267,6 +267,7 @@ public:
 
 	virtual ~AlgorithmParametersBase()
 	{
+/*
 #ifdef CRYPTOPP_UNCAUGHT_EXCEPTION_AVAILABLE
 		if (!std::uncaught_exception())
 #else
@@ -281,6 +282,7 @@ public:
 		{
 		}
 #endif
+*/
 	}
 
 	bool GetVoidValue(const char *name, const std::type_info &valueType, void *pValue) const;

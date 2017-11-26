@@ -36,7 +36,7 @@ _/etc/synergy.conf_ is self explanatory,  use the hostnames of each PC and make 
 	section: links
 	    myotherpc:
 	        right = myserver1
-	    myotherpc:
+	    myserver1:
 	        left = myotherpc
 	end
 
